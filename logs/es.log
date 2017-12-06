@@ -1,0 +1,36 @@
+2017.12.06 04:12:36 INFO  es[][o.s.p.ProcessEntryPoint] Starting es
+2017.12.06 04:12:36 INFO  es[][o.s.s.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2017.12.06 04:12:36 INFO  es[][o.elasticsearch.node] [sonarqube] version[2.4.4], pid[3099], build[fcbb46d/2017-01-03T11:33:16Z]
+2017.12.06 04:12:36 INFO  es[][o.elasticsearch.node] [sonarqube] initializing ...
+2017.12.06 04:12:36 INFO  es[][o.e.plugins] [sonarqube] modules [], plugins [], sites []
+2017.12.06 04:12:37 INFO  es[][o.elasticsearch.env] [sonarqube] using [1] data paths, mounts [[/ (/dev/sdb1)]], net usable_space [83.2gb], net total_space [138.7gb], spins? [possibly], types [ext4]
+2017.12.06 04:12:37 INFO  es[][o.elasticsearch.env] [sonarqube] heap size [990.7mb], compressed ordinary object pointers [true]
+2017.12.06 04:12:37 WARN  es[][o.elasticsearch.env] [sonarqube] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+2017.12.06 04:12:40 INFO  es[][o.elasticsearch.node] [sonarqube] initialized
+2017.12.06 04:12:40 INFO  es[][o.elasticsearch.node] [sonarqube] starting ...
+2017.12.06 04:12:40 INFO  es[][o.e.transport] [sonarqube] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2017.12.06 04:12:40 INFO  es[][o.e.discovery] [sonarqube] sonarqube/wUExMs0WScqW0S_eIyBfww
+2017.12.06 04:12:43 INFO  es[][o.e.cluster.service] [sonarqube] new_master {sonarqube}{wUExMs0WScqW0S_eIyBfww}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube, master=true}, reason: zen-disco-join(elected_as_master, [0] joins received)
+2017.12.06 04:12:43 INFO  es[][o.elasticsearch.node] [sonarqube] started
+2017.12.06 04:12:44 INFO  es[][o.e.gateway] [sonarqube] recovered [7] indices into cluster_state
+2017.12.06 04:12:49 INFO  es[][o.e.c.r.allocation] [sonarqube] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[components][1]] ...]).
+2017.12.06 05:26:38 INFO  es[][o.s.p.ProcessEntryPoint] Starting es
+2017.12.06 05:26:38 INFO  es[][o.s.s.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2017.12.06 05:26:38 INFO  es[][o.elasticsearch.node] [sonarqube] version[2.4.4], pid[4791], build[fcbb46d/2017-01-03T11:33:16Z]
+2017.12.06 05:26:38 INFO  es[][o.elasticsearch.node] [sonarqube] initializing ...
+2017.12.06 05:26:39 INFO  es[][o.e.plugins] [sonarqube] modules [], plugins [], sites []
+2017.12.06 05:26:39 INFO  es[][o.elasticsearch.env] [sonarqube] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [81.8gb], net total_space [138.7gb], spins? [possibly], types [ext4]
+2017.12.06 05:26:39 INFO  es[][o.elasticsearch.env] [sonarqube] heap size [990.7mb], compressed ordinary object pointers [true]
+2017.12.06 05:26:39 WARN  es[][o.elasticsearch.env] [sonarqube] max file descriptors [4096] for elasticsearch process likely too low, consider increasing to at least [65536]
+2017.12.06 05:26:42 INFO  es[][o.elasticsearch.node] [sonarqube] initialized
+2017.12.06 05:26:42 INFO  es[][o.elasticsearch.node] [sonarqube] starting ...
+2017.12.06 05:26:42 INFO  es[][o.e.transport] [sonarqube] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2017.12.06 05:26:42 INFO  es[][o.e.discovery] [sonarqube] sonarqube/Aq0mAnFYQjOV1d3gTTGqcA
+2017.12.06 05:26:45 INFO  es[][o.e.cluster.service] [sonarqube] new_master {sonarqube}{Aq0mAnFYQjOV1d3gTTGqcA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube, master=true}, reason: zen-disco-join(elected_as_master, [0] joins received)
+2017.12.06 05:26:45 INFO  es[][o.elasticsearch.node] [sonarqube] started
+2017.12.06 05:26:46 INFO  es[][o.e.gateway] [sonarqube] recovered [7] indices into cluster_state
+2017.12.06 05:26:51 INFO  es[][o.e.c.r.allocation] [sonarqube] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[components][4]] ...]).
+2017.12.06 07:04:48 INFO  es[][o.elasticsearch.node] [sonarqube] stopping ...
+2017.12.06 07:04:49 INFO  es[][o.elasticsearch.node] [sonarqube] stopped
+2017.12.06 07:04:49 INFO  es[][o.elasticsearch.node] [sonarqube] closing ...
+2017.12.06 07:04:49 INFO  es[][o.elasticsearch.node] [sonarqube] closed

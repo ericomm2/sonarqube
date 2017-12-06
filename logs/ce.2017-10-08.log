@@ -1,0 +1,13 @@
+2017.10.08 15:57:40 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2017.10.08 15:57:40 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2017.10.08 15:57:40 INFO  ce[][o.e.plugins] [Black Tom Cassidy] modules [], plugins [], sites []
+2017.10.08 15:57:41 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.10.08 15:57:41 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.10.08 15:57:41 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.10.08 15:57:42 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/erico/sonarqube-6.5
+2017.10.08 15:57:42 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2017.10.08 15:57:43 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before Tue Apr 11 15:57:43 BRT 2017
+2017.10.08 15:57:43 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2017.10.08 16:16:05 INFO  ce[AV79am4sw9cSTPvJkMTV][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-scanner-gradle | type=REPORT | id=AV79am4sw9cSTPvJkMTV
+2017.10.08 16:16:07 INFO  ce[AV79am4sw9cSTPvJkMTV][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-scanner-gradle | type=REPORT | id=AV79am4sw9cSTPvJkMTV | time=2612ms
+2017.10.08 16:17:30 INFO  ce[][o.s.ce.app.CeServer] Compute Engine shutting down...

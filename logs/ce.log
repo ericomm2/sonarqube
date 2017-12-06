@@ -1,0 +1,45 @@
+2017.12.06 04:13:08 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2017.12.06 04:13:08 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2017.12.06 04:13:09 INFO  ce[][o.e.plugins] [Answer] modules [], plugins [], sites []
+2017.12.06 04:13:09 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.12.06 04:13:09 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 04:13:09 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.12.06 04:13:10 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/erico/sonarqube-6.5
+2017.12.06 04:13:10 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2017.12.06 04:13:11 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before Fri Jun 09 04:13:11 BRT 2017
+2017.12.06 04:13:11 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2017.12.06 04:15:30 INFO  ce[AWAqreiLONI0jvvHbZdC][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-scanner-gradle | type=REPORT | id=AWAqreiLONI0jvvHbZdC
+2017.12.06 04:15:32 INFO  ce[AWAqreiLONI0jvvHbZdC][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-scanner-gradle | type=REPORT | id=AWAqreiLONI0jvvHbZdC | time=2759ms
+2017.12.06 05:27:10 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2017.12.06 05:27:10 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2017.12.06 05:27:10 INFO  ce[][o.e.plugins] [Abyss] modules [], plugins [], sites []
+2017.12.06 05:27:11 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.12.06 05:27:11 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 05:27:11 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.12.06 05:27:12 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/erico/sonarqube-6.5
+2017.12.06 05:27:12 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2017.12.06 05:27:13 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before Fri Jun 09 05:27:13 BRT 2017
+2017.12.06 05:27:13 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2017.12.06 05:28:41 INFO  ce[AWAq8OlpMQLzIj_LPC8_][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWAq8OlpMQLzIj_LPC8_
+2017.12.06 05:28:44 INFO  ce[AWAq8OlpMQLzIj_LPC8_][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWAq8OlpMQLzIj_LPC8_ | time=2733ms
+2017.12.06 05:39:41 INFO  ce[AWAq-v-lMQLzIj_LPC9B][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWAq-v-lMQLzIj_LPC9B
+2017.12.06 05:39:42 INFO  ce[AWAq-v-lMQLzIj_LPC9B][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWAq-v-lMQLzIj_LPC9B | time=1312ms
+2017.12.06 05:50:23 INFO  ce[AWArBMZtMQLzIj_LPC9C][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWArBMZtMQLzIj_LPC9C
+2017.12.06 05:50:24 INFO  ce[AWArBMZtMQLzIj_LPC9C][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWArBMZtMQLzIj_LPC9C | time=1249ms
+2017.12.06 05:55:52 INFO  ce[AWArCdH6MQLzIj_LPC9D][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWArCdH6MQLzIj_LPC9D
+2017.12.06 05:55:53 INFO  ce[AWArCdH6MQLzIj_LPC9D][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWArCdH6MQLzIj_LPC9D | time=1068ms
+2017.12.06 06:07:22 INFO  ce[AWArFFOeMQLzIj_LPC9E][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWArFFOeMQLzIj_LPC9E
+2017.12.06 06:07:23 INFO  ce[AWArFFOeMQLzIj_LPC9E][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWArFFOeMQLzIj_LPC9E | time=1162ms
+2017.12.06 06:22:14 INFO  ce[AWArIfMrMQLzIj_LPC9F][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWArIfMrMQLzIj_LPC9F
+2017.12.06 06:22:15 INFO  ce[AWArIfMrMQLzIj_LPC9F][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWArIfMrMQLzIj_LPC9F | time=1292ms
+2017.12.06 06:31:59 INFO  ce[AWArKuEKMQLzIj_LPC9G][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWArKuEKMQLzIj_LPC9G
+2017.12.06 06:32:01 INFO  ce[AWArKuEKMQLzIj_LPC9G][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWArKuEKMQLzIj_LPC9G | time=1253ms
+2017.12.06 06:47:13 INFO  ce[AWArONaeMQLzIj_LPC9H][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWArONaeMQLzIj_LPC9H
+2017.12.06 06:47:15 INFO  ce[AWArONaeMQLzIj_LPC9H][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWArONaeMQLzIj_LPC9H | time=1303ms
+2017.12.06 06:56:31 INFO  ce[AWArQVVxMQLzIj_LPC9I][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWArQVVxMQLzIj_LPC9I
+2017.12.06 06:56:32 INFO  ce[AWArQVVxMQLzIj_LPC9I][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWArQVVxMQLzIj_LPC9I | time=1262ms
+2017.12.06 06:59:11 INFO  ce[AWArQ8YoMQLzIj_LPC9J][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWArQ8YoMQLzIj_LPC9J
+2017.12.06 06:59:12 INFO  ce[AWArQ8YoMQLzIj_LPC9J][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWArQ8YoMQLzIj_LPC9J | time=1338ms
+2017.12.06 07:01:22 INFO  ce[AWArRcdMMQLzIj_LPC9K][o.s.c.t.CeWorkerImpl] Execute task | project=sonarqube-learning | type=REPORT | id=AWArRcdMMQLzIj_LPC9K
+2017.12.06 07:01:23 INFO  ce[AWArRcdMMQLzIj_LPC9K][o.s.c.t.CeWorkerImpl] Executed task | project=sonarqube-learning | type=REPORT | id=AWArRcdMMQLzIj_LPC9K | time=1295ms
+2017.12.06 07:04:48 INFO  ce[][o.s.ce.app.CeServer] Compute Engine shutting down...

@@ -1,0 +1,6 @@
+projectKey=sonarqube-learning
+serverUrl=http://localhost:9000
+serverVersion=6.5.0.27846
+dashboardUrl=http://localhost:9000/dashboard/index/sonarqube-learning
+ceTaskId=AWArRcdMMQLzIj_LPC9K
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWArRcdMMQLzIj_LPC9K

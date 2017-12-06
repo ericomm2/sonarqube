@@ -1,0 +1,101 @@
+2017.10.08 15:56:53 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2017.10.08 15:56:54 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2017.10.08 15:56:54 INFO  web[][o.e.plugins] [Famine] modules [], plugins [], sites []
+2017.10.08 15:56:55 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.10.08 15:56:55 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.5.0.27846 / ef2ca5b33e5795b841d45e0b20fef3cb90391719
+2017.10.08 15:56:56 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.10.08 15:56:56 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/erico/sonarqube-6.5/data
+2017.10.08 15:56:56 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.10.08 15:56:56 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.10.08 15:56:57 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/erico/sonarqube-6.5
+2017.10.08 15:56:57 INFO  web[][o.s.s.p.d.m.h.MigrationHistoryTableImpl] Creating table schema_migrations
+2017.10.08 15:56:58 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarJS [javascript] installed
+2017.10.08 15:56:58 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin Flex [flex] installed
+2017.10.08 15:56:58 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin Git [scmgit] installed
+2017.10.08 15:56:58 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarPython [python] installed
+2017.10.08 15:56:58 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarJava [java] installed
+2017.10.08 15:56:58 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin C# [csharp] installed
+2017.10.08 15:56:58 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SVN [scmsvn] installed
+2017.10.08 15:56:58 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarXML [xml] installed
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarPHP [php] installed
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin C# / 5.10.1.1411 / 748a97f89a5327cbea5cfe1f8aebe87d073c74a0
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Git / 1.2 / a713dd64daf8719ba4e7f551f9a1966c62690c17
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SVN / 1.5.0.715 / 0210a6f08400da8cab1a20e118ee3c97f8847ee4
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.1.1.5128 / 564d130c281685fde03e85964417158e32a17b2b
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.12.0.11033 / fa9fe66b0cb1b6ab8d7f341cc1f7908897a9cf33
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.10.0.2087 / b24a8fcb16d37cae2f8c6741141f4136c444851f
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2017.10.08 15:56:59 INFO  web[][o.s.s.p.d.m.AutoDbMigration] Automatically perform DB migration on fresh install
+2017.10.08 15:57:00 INFO  web[][o.s.s.p.Platform] Database has been automatically updated
+2017.10.08 15:57:00 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@6de81108 [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2017.10.08 15:57:00 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2017.10.08 15:57:01 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2017.10.08 15:57:01 INFO  web[][o.s.s.e.IndexCreator] Create index components
+2017.10.08 15:57:03 INFO  web[][o.s.s.e.IndexCreator] Create type components/component
+2017.10.08 15:57:03 INFO  web[][o.s.s.e.IndexCreator] Create type components/authorization
+2017.10.08 15:57:03 INFO  web[][o.s.s.e.IndexCreator] Create index tests
+2017.10.08 15:57:04 INFO  web[][o.s.s.e.IndexCreator] Create type tests/test
+2017.10.08 15:57:04 INFO  web[][o.s.s.e.IndexCreator] Create index projectmeasures
+2017.10.08 15:57:05 INFO  web[][o.s.s.e.IndexCreator] Create type projectmeasures/projectmeasure
+2017.10.08 15:57:05 INFO  web[][o.s.s.e.IndexCreator] Create type projectmeasures/authorization
+2017.10.08 15:57:05 INFO  web[][o.s.s.e.IndexCreator] Create index rules
+2017.10.08 15:57:05 INFO  web[][o.s.s.e.IndexCreator] Create type rules/activeRule
+2017.10.08 15:57:05 INFO  web[][o.s.s.e.IndexCreator] Create type rules/ruleExtension
+2017.10.08 15:57:06 INFO  web[][o.s.s.e.IndexCreator] Create type rules/rule
+2017.10.08 15:57:06 INFO  web[][o.s.s.e.IndexCreator] Create index issues
+2017.10.08 15:57:07 INFO  web[][o.s.s.e.IndexCreator] Create type issues/issue
+2017.10.08 15:57:07 INFO  web[][o.s.s.e.IndexCreator] Create type issues/authorization
+2017.10.08 15:57:07 INFO  web[][o.s.s.e.IndexCreator] Create index users
+2017.10.08 15:57:07 INFO  web[][o.s.s.e.IndexCreator] Create type users/user
+2017.10.08 15:57:07 INFO  web[][o.s.s.e.IndexCreator] Create index views
+2017.10.08 15:57:08 INFO  web[][o.s.s.e.IndexCreator] Create type views/view
+2017.10.08 15:57:08 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2017.10.08 15:57:09 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2017.10.08 15:57:09 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2017.10.08 15:57:16 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2017.10.08 15:57:16 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2017.10.08 15:57:16 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile cs/Sonar way
+2017.10.08 15:57:17 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile java/Sonar way
+2017.10.08 15:57:18 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile flex/Sonar way
+2017.10.08 15:57:18 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile xml/Sonar way
+2017.10.08 15:57:18 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile py/Sonar way
+2017.10.08 15:57:18 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/Sonar way
+2017.10.08 15:57:18 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/PSR-2
+2017.10.08 15:57:19 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/Drupal
+2017.10.08 15:57:19 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile js/Sonar way Recommended
+2017.10.08 15:57:19 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile js/Sonar way
+2017.10.08 15:57:19 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2017.10.08 15:57:19 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2017.10.08 15:57:19 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@5708f3bc [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2017.10.08 15:57:19 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@7106d0e2 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2017.10.08 15:57:19 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@316c4a5c [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2017.10.08 15:57:19 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@f1d0383 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2017.10.08 15:57:19 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@19769351 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2017.10.08 15:57:19 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@58f658c3 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2017.10.08 15:57:19 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@6749ff9c [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2017.10.08 15:57:19 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@3093281b [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2017.10.08 15:57:19 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2017.10.08 15:57:19 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [rules/activeRule] ...
+2017.10.08 15:57:23 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [rules/activeRule] done | time=3443ms
+2017.10.08 15:57:23 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [rules/rule],[rules/ruleExtension] ...
+2017.10.08 15:57:27 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [rules/rule],[rules/ruleExtension] done | time=4113ms
+2017.10.08 15:57:27 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [users/user] ...
+2017.10.08 15:57:29 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [users/user] done | time=2759ms
+2017.10.08 15:57:29 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [components/component] ...
+2017.10.08 15:57:31 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [components/component] done | time=1078ms
+2017.10.08 15:57:31 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [views/view] ...
+2017.10.08 15:57:32 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [views/view] done | time=1092ms
+2017.10.08 15:57:32 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [issues/issue] ...
+2017.10.08 15:57:33 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [issues/issue] done | time=1083ms
+2017.10.08 15:57:33 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [components/authorization],[projectmeasures/authorization],[issues/authorization] ...
+2017.10.08 15:57:37 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [components/authorization],[projectmeasures/authorization],[issues/authorization] done | time=4417ms
+2017.10.08 15:57:37 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [tests/test] ...
+2017.10.08 15:57:38 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [tests/test] done | time=1085ms
+2017.10.08 15:57:38 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [projectmeasures/projectmeasure] ...
+2017.10.08 15:57:39 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [projectmeasures/projectmeasure] done | time=1014ms
+2017.10.08 15:57:39 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2017.10.08 15:57:39 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2017.10.08 16:17:30 INFO  web[][o.s.s.n.NotificationDaemon] Notification service stopped
+2017.10.08 16:17:30 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
